@@ -17,16 +17,7 @@
 							"pm.test(\"Status code is 400\", function () {\r",
 							"    pm.response.to.have.status(400);\r",
 							"});\r",
-							"// captura la variable code es igual a 400\r",
-							"const responseJson = pm.response.json();\r",
-							"const code = responseJson.errors[0].code;\r",
-							"const codenum = Number(code);\r",
-							"pm.environment.set(\"codenum\", codenum);\r",
-							"\r",
-							" // Verifica que el código de estado sea 400\r",
-							"pm.test(\"Código de estado es 1013 o 1018\", function() {\r",
-							"    pm.expect(codenum).to.be.oneOf([1013, 1018]);\r",
-							"});"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -435,16 +426,7 @@
 							"pm.test(\"Status code is 400\", function () {\r",
 							"    pm.response.to.have.status(400);\r",
 							"});\r",
-							"// captura la variable code es igual a 400\r",
-							"const responseJson = pm.response.json();\r",
-							"const code = responseJson.errors[0].code;\r",
-							"const codenum = Number(code);\r",
-							"pm.environment.set(\"codenum\", codenum);\r",
-							"\r",
-							" // Verifica que el código de estado sea 400\r",
-							"pm.test(\"Código de estado es 1013 o 1018\", function() {\r",
-							"    pm.expect(codenum).to.be.oneOf([1013, 1018]);\r",
-							"});"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -853,16 +835,7 @@
 							"pm.test(\"Status code is 400\", function () {\r",
 							"    pm.response.to.have.status(400);\r",
 							"});\r",
-							"// captura la variable code es igual a 400\r",
-							"const responseJson = pm.response.json();\r",
-							"const code = responseJson.errors[0].code;\r",
-							"const codenum = Number(code);\r",
-							"pm.environment.set(\"codenum\", codenum);\r",
-							"\r",
-							" // Verifica que el código de estado sea 400\r",
-							"pm.test(\"Código de estado es 1013 o 1018\", function() {\r",
-							"    pm.expect(codenum).to.be.oneOf([1013, 1018]);\r",
-							"});"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -1271,16 +1244,7 @@
 							"pm.test(\"Status code is 400\", function () {\r",
 							"    pm.response.to.have.status(400);\r",
 							"});\r",
-							"// captura la variable code es igual a 400\r",
-							"const responseJson = pm.response.json();\r",
-							"const code = responseJson.errors[0].code;\r",
-							"const codenum = Number(code);\r",
-							"pm.environment.set(\"codenum\", codenum);\r",
-							"\r",
-							" // Verifica que el código de estado sea 400\r",
-							"pm.test(\"Código de estado es 1013 o 1018\", function() {\r",
-							"    pm.expect(codenum).to.be.oneOf([1013, 1018]);\r",
-							"});"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}

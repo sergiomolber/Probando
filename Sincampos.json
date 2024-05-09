@@ -460,7 +460,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"package\": {\r\n  \r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"d0508e8b-3065-467f-990c-dc1b2aea8944\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\": \"$573003004001\",\r\n      \"amount\": 54,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \"targetBank\": \"\",\r\n      \"merchantId\": \"89dc15a5-6140-4694-804e-531076307041\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"null\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
+					"raw": "{\r\n  \"package\": {\r\n  \r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"{{$randomPassword}}\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\": \"$573003004001\",\r\n      \"amount\": 54,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \"targetBank\": \"\",\r\n      \"merchantId\": \"89dc15a5-6140-4694-804e-531076307041\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"null\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -868,7 +868,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"package\": null,\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"d0508e8b-3065-467f-990c-dc1b2aea8944\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\": \"$573003004001\",\r\n      \"amount\": 54,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \"targetBank\": \"\",\r\n      \"merchantId\": \"89dc15a5-6140-4694-804e-531076307041\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"null\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
+					"raw": "{\r\n  \"package\": null,\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"{{$randomPassword}}\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\": \"$573003004001\",\r\n      \"amount\": 54,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \"targetBank\": \"\",\r\n      \"merchantId\": \"89dc15a5-6140-4694-804e-531076307041\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"null\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -3272,7 +3272,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": \"2023-01-03T23:47:26.186Z\",\r\n    \"packageId\": \"\",\r\n    \"sourceId\": \"65c242c3-1ea6-45c4-a71f-a41538ded408\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"d0508e8b-3065-467f-990c-dc1b2aea8944\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\": \"$573003004001\",\r\n      \"amount\": 54,\r\n      \r\n      \"targetBank\": \"\",\r\n      \"merchantId\": \"89dc15a5-6140-4694-804e-531076307041\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"null\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
+					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": \"2023-01-03T23:47:26.186Z\",\r\n    \"packageId\": \"\",\r\n    \"sourceId\": \"65c242c3-1ea6-45c4-a71f-a41538ded408\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"{{$randomPassword}}\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\": \"$573003004001\",\r\n      \"amount\": 54,\r\n      \r\n      \"targetBank\": \"\",\r\n      \"merchantId\": \"89dc15a5-6140-4694-804e-531076307041\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"null\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -3670,7 +3670,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": \"2023-01-03T23:47:26.186Z\",\r\n    \"packageId\": \"\",\r\n    \"sourceId\": \"65c242c3-1ea6-45c4-a71f-a41538ded408\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"d0508e8b-3065-467f-990c-dc1b2aea8944\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\": \"$573003004001\",\r\n      \"amount\": 54,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \r\n      \"merchantId\": \"89dc15a5-6140-4694-804e-531076307041\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"null\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
+					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": \"2023-01-03T23:47:26.186Z\",\r\n    \"packageId\": \"\",\r\n    \"sourceId\": \"65c242c3-1ea6-45c4-a71f-a41538ded408\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"{{$randomPassword}}\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\": \"$573003004001\",\r\n      \"amount\": 54,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \r\n      \"merchantId\": \"89dc15a5-6140-4694-804e-531076307041\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"null\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -4068,7 +4068,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": \"2023-01-03T23:47:26.186Z\",\r\n    \"packageId\": \"\",\r\n    \"sourceId\": \"65c242c3-1ea6-45c4-a71f-a41538ded408\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"d0508e8b-3065-467f-990c-dc1b2aea8944\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\": \"$573003004001\",\r\n      \"amount\": 54,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \"targetBank\": \"\",\r\n     \r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"null\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
+					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": \"2023-01-03T23:47:26.186Z\",\r\n    \"packageId\": \"\",\r\n    \"sourceId\": \"65c242c3-1ea6-45c4-a71f-a41538ded408\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"{{$randomPassword}}\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\": \"$573003004001\",\r\n      \"amount\": 54,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \"targetBank\": \"\",\r\n     \r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"null\",\r\n      \"createDate\": \"2023-01-03T23:47:26.186Z\"\r\n    }\r\n    \r\n  ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -4466,7 +4466,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": \"2023-01-03T23:47:26.186Z\",\r\n    \"packageId\": \"\",\r\n    \"sourceId\": \"65c242c3-1ea6-45c4-a71f-a41538ded408\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"d0508e8b-3065-467f-990c-dc1b2aea8944\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\": \"$573003004001\",\r\n      \"amount\": 54,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \"targetBank\": \"\",\r\n      \"merchantId\": \"89dc15a5-6140-4694-804e-531076307041\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"null\"}\r\n    \r\n  ]\r\n}",
+					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"COLLECTION\",\r\n    \"createDate\": \"2023-01-03T23:47:26.186Z\",\r\n    \"packageId\": \"\",\r\n    \"sourceId\": \"65c242c3-1ea6-45c4-a71f-a41538ded408\"\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": \"{{$randomPassword}}\",\r\n      \"source\": \"wcc7vHUcnYpJcba8eiqEmmARtR3cS1PGfV\",\r\n      \"target\": \"$573003004001\",\r\n      \"amount\": 54,\r\n      \"description\": \"Transferencia pago de compra.\",\r\n      \"targetBank\": \"\",\r\n      \"merchantId\": \"89dc15a5-6140-4694-804e-531076307041\",\r\n      \"sourceChannel\": \"POS\",\r\n      \"sourceId\": \"null\"}\r\n    \r\n  ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
