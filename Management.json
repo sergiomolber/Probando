@@ -53,7 +53,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"package\": {\r\n    \"type\": {{type}},\r\n    \"createDate\": null,\r\n    \"packageId\": {{$randomPassword}},\r\n    \"sourceId\": {{sourceId}}\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": {{transferId}},\r\n      \"source\": {{source}},\r\n      \"target\": {{target}},\r\n      \"amount\": {{amount}},\r\n      \"description\": {{description}},\r\n      \"targetBank\": {{targetBank}},\r\n      \"merchantId\": {{merchantId}},\r\n      \"sourceChannel\": {{sourceChannel}},\r\n      \"sourceId\": {{sourceIdt}},\r\n      \"createDate\": {{createDate}}\r\n    }\r\n    \r\n  ]\r\n}",
+					"raw": "{\r\n  \"package\": {\r\n    \"type\": {{type}},\r\n    \"createDate\": null,\r\n    \"packageId\": null,\r\n    \"sourceId\": {{sourceId}}\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": {{transferId}},\r\n      \"source\": {{source}},\r\n      \"target\": {{target}},\r\n      \"amount\": {{amount}},\r\n      \"description\": {{description}},\r\n      \"targetBank\": {{targetBank}},\r\n      \"merchantId\": {{merchantId}},\r\n      \"sourceChannel\": {{sourceChannel}},\r\n      \"sourceId\": {{sourceIdt}},\r\n      \"createDate\": {{createDate}}\r\n    }\r\n    \r\n  ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
