@@ -1,16 +1,16 @@
-﻿message-uid,createDate,packageId,transferId,description,targetBank,merchantId,createDate1
-null,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null
-c9813ba4-52ee-4c10-9228-a0268529d626,null,"""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null
-c9813ba4-52ee-4c10-9228-a0268529d626,"""""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null
-c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""",null,"""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null
-c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null
-c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""",null,"""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null
-c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null
-c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""",null,"""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null
-c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null
-c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""",null,"""89dc15a5-6140-4694-804e-531076307041""",null
-c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""""","""89dc15a5-6140-4694-804e-531076307041""",null
-c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""",null,null
-c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""""",null
-c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",""""""
-c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null
+﻿message-uid,createDate,packageId,transferId,description,targetBank,merchantId,createDate1,comentarios
+null,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null,1
+c9813ba4-52ee-4c10-9228-a0268529d626,null,"""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null,2
+c9813ba4-52ee-4c10-9228-a0268529d626,"""""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null,2
+c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""",null,"""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null,3
+c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null,4
+c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""",null,"""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null,5
+c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null,6
+c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""",null,"""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null,6
+c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null,7
+c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""",null,"""89dc15a5-6140-4694-804e-531076307041""",null,7
+c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""""","""89dc15a5-6140-4694-804e-531076307041""",null,8
+c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""",null,null,8
+c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""""",null,9
+c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""","""""",99
+c9813ba4-52ee-4c10-9228-a0268529d626,"""2023-01-03T23:47:26.186Z""","""{{$randomPassword}}""","""{{$randomPassword}}""","""Transferencia pago de compra""","""AG1525AXCS""","""89dc15a5-6140-4694-804e-531076307041""",null,8
