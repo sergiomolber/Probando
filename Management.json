@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "eee9b790-118e-44e0-b405-d7bb96922df9",
+		"_postman_id": "124b62a8-e0e8-42fc-89d9-1b449a62747b",
 		"name": "Error 400",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/TRANSFIYA-TIME~e6fb1c04-db29-4b23-bf0b-3e5042f97027/collection/29460625-eee9b790-118e-44e0-b405-d7bb96922df9?source=collection_link"
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/ver~f2018285-818c-4fb1-807a-764f20a5252f/collection/29460625-124b62a8-e0e8-42fc-89d9-1b449a62747b?action=share&source=collection_link&creator=29460625"
 	},
 	"item": [
 		{
@@ -15,16 +15,9 @@
 					"script": {
 						"exec": [
 							"\r",
-							"// captura la variable code es igual a 400\r",
-							"const responseJson = pm.response.json();\r",
-							"const code = responseJson.errors[0].code;\r",
-							"const codenum = Number(code);\r",
-							"pm.environment.set(\"codenum\", codenum);\r",
-							"\r",
-							"pm.test(\"La variable de entorno 'code' es 400\", function () {\r",
-							"  pm.expect(codenum).to.equal(400); // Verifica si la variable es igual a 400\r",
-							"});\r",
-							""
+							"pm.test(\"Status code is 400\", function () {\r",
+							"    pm.response.to.have.status(400);\r",
+							"});"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -49,7 +42,7 @@
 					},
 					{
 						"key": "message-uid",
-						"value": "{{message-uid}}",
+						"value": "c9813ba4-52ee-4c10-9228-a0268529d626",
 						"type": "text"
 					},
 					{
@@ -60,7 +53,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"package\": {\r\n    \"type\": {{type}},\r\n    \"createDate\": null,\r\n    \"packageId\": null,\r\n    \"sourceId\": {{sourceId}}\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": {{transferId}},\r\n      \"source\": {{source}},\r\n      \"target\": {{target}},\r\n      \"amount\": {{amount}},\r\n      \"description\": {{description}},\r\n      \"targetBank\": {{targetBank}},\r\n      \"merchantId\": {{merchantId}},\r\n      \"sourceChannel\": {{sourceChannel}},\r\n      \"sourceId\": {{sourceIdt}},\r\n      \"createDate\": {{createDate}}\r\n    }\r\n    \r\n  ]\r\n}",
+					"raw": "{\r\n  \"package\": {\r\n    \"type\": {{type}},\r\n    \"createDate\": null,\r\n    \"packageId\": {{$randomPassword}},\r\n    \"sourceId\": {{sourceId}}\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": {{transferId}},\r\n      \"source\": {{source}},\r\n      \"target\": {{target}},\r\n      \"amount\": {{amount}},\r\n      \"description\": {{description}},\r\n      \"targetBank\": {{targetBank}},\r\n      \"merchantId\": {{merchantId}},\r\n      \"sourceChannel\": {{sourceChannel}},\r\n      \"sourceId\": {{sourceIdt}},\r\n      \"createDate\": {{createDate}}\r\n    }\r\n    \r\n  ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
