@@ -1,18 +1,10 @@
 {
 	"info": {
-<<<<<<< HEAD
-		"_postman_id": "a8d1bfbd-e5fa-47ac-bd90-85eff683f943",
+		"_postman_id": "a3034cd7-488f-42d4-9a0e-7c6535a6dd95",
 		"name": "Error 400",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/open-finance~6359dae7-20cc-4494-a9ec-38c790ec8b8e/collection/29460625-a8d1bfbd-e5fa-47ac-bd90-85eff683f943?source=collection_link"
-=======
-		"_postman_id": "124b62a8-e0e8-42fc-89d9-1b449a62747b",
-		"name": "Error 400",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "29460625",
-		"_collection_link": "https://red-satellite-829132.postman.co/workspace/ver~f2018285-818c-4fb1-807a-764f20a5252f/collection/29460625-124b62a8-e0e8-42fc-89d9-1b449a62747b?action=share&source=collection_link&creator=29460625"
->>>>>>> parent of b8732d5 (ok)
+		"_collection_link": "https://red-satellite-829132.postman.co/workspace/open-finance~6359dae7-20cc-4494-a9ec-38c790ec8b8e/collection/29460625-a3034cd7-488f-42d4-9a0e-7c6535a6dd95?source=collection_link"
 	},
 	"item": [
 		{
@@ -23,22 +15,7 @@
 					"script": {
 						"exec": [
 							"\r",
-							"pm.test(\"Status code is 400\", function () {\r",
-							"    pm.response.to.have.status(400);\r",
-<<<<<<< HEAD
-							"});\r",
-							"// captura la variable code es igual a 400\r",
-							"const responseJson = pm.response.json();\r",
-							"const code = responseJson.errors[0].code;\r",
-							"const codenum = Number(code);\r",
-							"pm.environment.set(\"codenum\", codenum);\r",
-							" \r",
-							" // Verifica que el código de estado sea 400\r",
-							"pm.test(\"Código de estado es 1013 o 1018\", function() {\r",
-							"    pm.expect(codenum).to.be.oneOf([1013, 1018]);\r",
-=======
->>>>>>> parent of b8732d5 (ok)
-							"});"
+							""
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -63,11 +40,7 @@
 					},
 					{
 						"key": "message-uid",
-<<<<<<< HEAD
-						"value": "c9813ba4-52ee-4c10-9228-a026852",
-=======
 						"value": "c9813ba4-52ee-4c10-9228-a0268529d626",
->>>>>>> parent of b8732d5 (ok)
 						"type": "text"
 					},
 					{
@@ -78,7 +51,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"package\": {\r\n    \"type\": {{type}},\r\n    \"createDate\": null,\r\n    \"packageId\": {{$randomPassword}},\r\n    \"sourceId\": {{sourceId}}\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\": {{transferId}},\r\n      \"source\": {{source}},\r\n      \"target\": {{target}},\r\n      \"amount\": {{amount}},\r\n      \"description\": {{description}},\r\n      \"targetBank\": {{targetBank}},\r\n      \"merchantId\": {{merchantId}},\r\n      \"sourceChannel\": {{sourceChannel}},\r\n      \"sourceId\": {{sourceIdt}},\r\n      \"createDate\": {{createDate}}\r\n    }\r\n    \r\n  ]\r\n}",
+					"raw": "{\r\n  \"package\": {\r\n    \"type\": \"{{type}}\",\r\n    \"createDate\": null,\r\n    \"packageId\": \"{{$randomAlphaNumeric}}\",\r\n    \"sourceId\": {{sourceId}}\r\n  },\r\n  \"transfers\": [\r\n    {\r\n      \"transferId\":\"{{$randomAlphaNumeric}}\",\r\n      \"source\": {{source}},\r\n      \"target\": {{target}},\r\n      \"amount\": {{amount}},\r\n      \"description\": {{description}},\r\n      \"targetBank\": {{targetBank}},\r\n      \"merchantId\": {{merchantId}},\r\n      \"sourceChannel\": {{sourceChannel}},\r\n      \"sourceId\": {{sourceIdt}},\r\n      \"createDate\": {{createDate}}\r\n    }\r\n]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
