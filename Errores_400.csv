@@ -4,7 +4,7 @@ type,sourceId,transferId,source,target,amount,description,targetBank,merchantId,
 null,null,null,null,null,null,null,null,null,null,null,null
 """PRUEBA""",null,null,null,null,null,null,null,null,null,null,null
 """COLLECTION""","""""",null,null,null,null,null,null,null,null,null,null
-"""COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded40823""",null,null,null,null,null,null,null,null,null,
+"""COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded40823""",null,null,null,null,null,null,null,null,null,null
 """COLLECTION""",null,null,null,null,null,null,null,null,null,null,null
 """COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""","""""",null,null,null,null,null,null,null,null
 """COLLECTION""","""65c242c3-1ea6-45c4-a71f-a41538ded408""","""{{$randomPassword}}""",null,null,null,null,null,null,null,null,null
